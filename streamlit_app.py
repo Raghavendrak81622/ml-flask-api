@@ -6,6 +6,7 @@ import numpy as np
 # Load trained ML model
 model = joblib.load("model.pkl")
 print("Model loaded successfully.")
+print("Model coefficients:", model.coef_)
 # Application title
 st.title("House Price Prediction")
 st.write("Enter the house details to predict its price.")
