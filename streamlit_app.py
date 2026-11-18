@@ -21,7 +21,7 @@ Latitude = st.number_input("Latitude", value=34.0)
 Longitude = st.number_input("Longitude", value=-118.0)
 
 # Predict button
-if st.button("Predict House Price"):
+if st.button("Predict House Price\n"):
 
     # Prepare input data
     features = np.array([[
