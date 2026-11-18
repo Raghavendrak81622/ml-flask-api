@@ -5,7 +5,7 @@ import numpy as np
 
 # Load trained ML model
 model = joblib.load("model.pkl")
-
+print("Model loaded successfully.")
 # Application title
 st.title("House Price Prediction")
 st.write("Enter the house details to predict its price.")
@@ -21,7 +21,7 @@ Latitude = st.number_input("Latitude", value=34.0)
 Longitude = st.number_input("Longitude", value=-118.0)
 
 # Predict button
-if st.button("Predict House Price\n"):
+if st.button("Predict House Price"):
 
     # Prepare input data
     features = np.array([[
