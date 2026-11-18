@@ -39,7 +39,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v5
         with:
-          images: raghavendra22/streamlit-house-price
+          images: raghavendrak22/streamlit-house-price
           tags: |
             type=raw,value=latest
             type=sha,prefix=sha-,format=long
